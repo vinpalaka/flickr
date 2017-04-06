@@ -94,6 +94,7 @@ public class FlickrFragment extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater) {
+        menu.clear();
         super.onCreateOptionsMenu(menu, menuInflater);
         menuInflater.inflate(R.menu.flickr_photo, menu);
 
